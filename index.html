@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <header>
+        <h1>Apresente-se</h1>
+    </header>
+    <section>
+        <form action="cad.php" method="get">
+            <!--action para onde os dados vão e o metodo get o tipo de dados que serão enviados -->
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="idnome">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="idemail">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="idpassword">
+            <input class="voltar" type="submit" value="Enviar">
+        </form>
+
+    </section>
+
+</body>
+
+</html>
